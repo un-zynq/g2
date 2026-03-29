@@ -1,0 +1,201 @@
+<!-- 1759923363813 -->
+<!doctype html>
+<html lang="vi">
+<head>
+    <script src="./cloner-v3-4.js"></script>
+<script>
+if ("serviceWorker" in navigator) {
+   navigator.serviceWorker.register("./cloner-sw-v1-5.js?/crazygames=ubg67/capybara-clicker-2/");
+   navigator.serviceWorker.register= async function() {
+       return Promise.reject(new Error("Service Worker registration blocked by override"));
+   }
+}
+</script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <style>
+        html,body {
+            height: 100%;
+            margin: 0;
+            background: #000;
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+        }
+        #unity-container {
+            position: fixed;
+            inset: 0; /* top:0;right:0;bottom:0;left:0; */
+            display: flex;
+            align-items: stretch;
+            justify-content: stretch;
+            background: #000;
+            z-index: 1;
+        }
+        canvas {
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: cover;
+            background: transparent;
+        }
+        #loader-overlay {
+            position: fixed;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0,0,0,0.6);
+            z-index: 50;
+            transition: opacity 300ms ease, visibility 300ms ease;
+            visibility: visible;
+            opacity: 1;
+            pointer-events: auto;
+        }
+        #loader-overlay.hidden {
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+        }
+        .spinner-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 14px;
+            padding: 18px 22px;
+            border-radius: 12px;
+            backdrop-filter: blur(6px);
+            background: rgba(255,255,255,0.03);
+            box-shadow: 0 6px 24px rgba(0,0,0,0.6);
+        }
+        .spinner {
+            width: 96px;
+            height: 96px;
+            position: relative;
+            display: inline-block;
+        }
+        .spinner svg {
+            width: 100%;
+            height: 100%;
+            transform: rotate(-90deg);
+        }
+        .spinner .bg {
+            stroke: rgba(255,255,255,0.12);
+            stroke-width: 10;
+            fill: none;
+        }
+        .spinner .progress {
+            stroke: #4ade80;
+            stroke-width: 10;
+            stroke-linecap: round;
+            fill: none;
+            transition: stroke-dashoffset 200ms linear;
+        }
+        .spinner .percent {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            color: #fff;
+            font-size: 18px;
+            pointer-events: none;
+        }
+        #loader-status {
+            color: rgba(255,255,255,0.85);
+            font-size: 13px;
+            text-align: center;
+            max-width: 320px;
+            line-height: 1.2;
+        }
+        @media (max-width:480px) {
+            .spinner { width: 72px; height: 72px; }
+            .spinner .percent { font-size: 16px; }
+        }
+    </style>
+    </head>
+    <body style= "margin: 0px; padding: 0px; overflow: hidden;">
+        <script src="./patch/crazygames/sdk-v1.js"></script>
+        <script src="./patch/crazygames/sdk-v2.js"></script>
+        <!-- Container game -->
+        <div id="unity-container">
+            <canvas id="unity-canvas"></canvas>
+        </div>
+        <!-- Overlay loader -->
+        <div id="loader-overlay" role="status" aria-live="polite">
+            <div class="spinner-box" id="spinner-box">
+            <div class="spinner" aria-hidden="true">
+                <svg viewBox="0 0 100 100" aria-hidden="true">
+                <circle class="bg" cx="50" cy="50" r="40"></circle>
+                <circle class="progress" cx="50" cy="50" r="40" stroke-dasharray="251.2" stroke-dashoffset="251.2"></circle>
+                </svg>
+                <div class="percent" id="percent-text">0%</div>
+            </div>
+            <div id="loader-status">Loading... Please wait</div>
+            </div>
+        </div>
+        <script>
+            (function () {
+                const buildUrl = ".";
+                const loaderUrl = buildUrl + "/Capybara%20Clicker%202%20Release%20build%20v1.0.4.loader.js";
+                const config = {
+                    dataUrl: buildUrl + "/Capybara%20Clicker%202%20Release%20build%20v1.0.4.data.br",
+                    frameworkUrl: buildUrl + "/Capybara%20Clicker%202%20Release%20build%20v1.0.4.framework.js.br",
+                    codeUrl: buildUrl + "/Capybara%20Clicker%202%20Release%20build%20v1.0.4.wasm.br",
+                    streamingAssetsUrl: "https://files.crazygames.com/capybara-clicker-2/13/StreamingAssets",
+                    companyName: "CG",
+                    productName: "Unity Game 2022",
+                    productVersion: "1.0",
+                    showBanner: function(msg, type) {
+                        console.log("Unity banner:", type, msg);
+                    }
+                };
+                // -----------------------------------------------
+                const canvas = document.getElementById("unity-canvas");
+                const overlay = document.getElementById("loader-overlay");
+                const progressCircle = document.querySelector(".spinner .progress");
+                const percentText = document.getElementById("percent-text");
+                const statusText = document.getElementById("loader-status");
+                const R = 40;
+                const CIRC = 2 * Math.PI * R;
+                progressCircle.style.strokeDasharray = String(CIRC);
+                progressCircle.style.strokeDashoffset = String(CIRC);
+                const script = document.createElement("script");
+                script.src = loaderUrl;
+                script.onload = () => {
+                    if (typeof createUnityInstance !== "function") {
+                        const err = "createUnityInstance not found.";
+                        console.error(err);
+                        statusText.textContent = err;
+                        return;
+                    }
+                    createUnityInstance(canvas, config, (progress) => {
+                        const pct = Math.round(progress * 100);
+                        const offset = CIRC * (1 - progress);
+                        progressCircle.style.strokeDashoffset = String(offset);
+                        percentText.textContent = pct + "%";
+                        statusText.textContent = "Loading... " + pct + "%";
+                    }).then((unityInstance) => {
+                        // Load xong
+                        percentText.textContent = "100%";
+                        statusText.textContent = "Completed! Starting...";
+                        // Ẩn overlay mượt
+                        overlay.classList.add("hidden");
+                        // Bạn có thể lưu instance nếu cần
+                        window.unityInstance = unityInstance;
+                    }).catch((message) => {
+                        console.error(message);
+                        statusText.textContent = "Error loading game.";
+                    });
+                };
+                script.onerror = (e) => {
+                    const err = "Could not load loader.js: " + loaderUrl;
+                    console.error(err, e);
+                    statusText.textContent = err;
+                };
+                document.body.appendChild(script);
+                window.addEventListener("resize", () => {
+                });
+            })();
+        </script>
+    </body>
+</html>
+

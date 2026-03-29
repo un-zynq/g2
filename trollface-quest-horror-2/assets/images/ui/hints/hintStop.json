@@ -1,0 +1,754 @@
+{
+	"textures": [
+		{
+			"image": "hintStop.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 582,
+				"h": 129
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "tipcurstop_015.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 129
+					},
+					"frame": {
+						"x": 169,
+						"y": 0,
+						"w": 149,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					},
+					"frame": {
+						"x": 318,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					},
+					"frame": {
+						"x": 450,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					},
+					"frame": {
+						"x": 318,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					},
+					"frame": {
+						"x": 318,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					},
+					"frame": {
+						"x": 318,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					},
+					"frame": {
+						"x": 318,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					},
+					"frame": {
+						"x": 318,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					},
+					"frame": {
+						"x": 318,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 129
+					},
+					"frame": {
+						"x": 169,
+						"y": 0,
+						"w": 149,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 129
+					},
+					"frame": {
+						"x": 169,
+						"y": 0,
+						"w": 149,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 129
+					},
+					"frame": {
+						"x": 169,
+						"y": 0,
+						"w": 149,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 129
+					},
+					"frame": {
+						"x": 169,
+						"y": 0,
+						"w": 149,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 129
+					},
+					"frame": {
+						"x": 169,
+						"y": 0,
+						"w": 149,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 129
+					},
+					"frame": {
+						"x": 169,
+						"y": 0,
+						"w": 149,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_016.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_017.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_018.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_019.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_020.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_021.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_022.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_023.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_024.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_025.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_026.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_027.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_028.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 169,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					},
+					"frame": {
+						"x": 450,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					},
+					"frame": {
+						"x": 450,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					},
+					"frame": {
+						"x": 450,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					},
+					"frame": {
+						"x": 450,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					},
+					"frame": {
+						"x": 450,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					}
+				},
+				{
+					"filename": "tipcurstop_035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 169,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					},
+					"frame": {
+						"x": 450,
+						"y": 0,
+						"w": 132,
+						"h": 129
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.0"
+	}
+}

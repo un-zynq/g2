@@ -1,0 +1,207 @@
+{
+    "id": 767,
+    "name": "strawberella",
+    "title": "Strawberella",
+    "rebrandName": "STRAWBERELLA",
+    "prinxySlug": "",
+    "portal": "Gamerina",
+    "core": "v1.1",
+    "sdks": [
+        {
+            "type": "crazy-games",
+            "data": {
+                "banner": {
+                    "size_large": "300x250",
+                    "size_small": "320x50",
+                    "position": "bot-left"
+                }
+            }
+        }
+    ],
+    "publishers": [
+        {
+            "id": 0,
+            "name": "OpenMarket",
+            "domain": "yandex",
+            "domain_id": 0,
+            "ads_positions": [
+                "pre2",
+                "unit1",
+                "unit2",
+                "unit3",
+                "unit4",
+                "unit5",
+                "unit6",
+                "unit7",
+                "unit8",
+                "unit9",
+                "unit10",
+                "unit11",
+                "unit12",
+                "replay1",
+                "ls1"
+            ],
+            "timer_ads_positions": [
+                "pre2",
+                "unit1",
+                "unit2",
+                "unit3",
+                "unit4",
+                "unit5",
+                "unit6",
+                "unit7",
+                "unit8",
+                "unit9",
+                "unit10",
+                "unit11",
+                "unit12",
+                "ls1"
+            ],
+            "timer_between_ads": "1",
+            "first_timer": "0",
+            "timer_resets_on_click": 0,
+            "ad_unit": "",
+            "ads_locked": "0",
+            "whitelist": "0",
+            "locked": "0",
+            "ads_cap": "0",
+            "optional": {
+                "outgoing": [
+                    {
+                        "zone": "logo_button",
+                        "unit": "",
+                        "url": "https://prinxy.app/",
+                        "image": "",
+                        "xpos": "",
+                        "ypos": "",
+                        "block": "1",
+                        "remove": "0",
+                        "utm": "1",
+                        "show": "0"
+                    },
+                    {
+                        "zone": "preloader_button",
+                        "unit": "",
+                        "url": "",
+                        "image": "",
+                        "xpos": "",
+                        "ypos": "",
+                        "block": "0",
+                        "remove": "0",
+                        "utm": "0",
+                        "show": "1"
+                    },
+                    {
+                        "zone": "mg",
+                        "unit": "",
+                        "url": "",
+                        "image": "",
+                        "xpos": "",
+                        "ypos": "",
+                        "block": "1",
+                        "remove": "0",
+                        "utm": "0",
+                        "show": "0"
+                    },
+                    {
+                        "zone": "mg",
+                        "unit": "level_select",
+                        "url": "https://prinxy.app/",
+                        "image": "",
+                        "xpos": "",
+                        "ypos": "",
+                        "block": "1",
+                        "remove": "0",
+                        "utm": "1",
+                        "show": "0"
+                    },
+                    {
+                        "zone": "facebook",
+                        "unit": "",
+                        "url": "",
+                        "image": "",
+                        "xpos": "",
+                        "ypos": "",
+                        "block": "1",
+                        "remove": "0",
+                        "utm": "0",
+                        "show": "0"
+                    },
+                    {
+                        "zone": "youtube",
+                        "unit": "",
+                        "url": "",
+                        "image": "",
+                        "xpos": "",
+                        "ypos": "",
+                        "block": "1",
+                        "remove": "0",
+                        "utm": "0",
+                        "show": "0"
+                    },
+                    {
+                        "zone": "mg",
+                        "unit": "end_screen",
+                        "url": "https://prinxy.app/",
+                        "image": "",
+                        "xpos": "",
+                        "ypos": "",
+                        "block": "1",
+                        "remove": "0",
+                        "utm": "1",
+                        "show": "0"
+                    }
+                ],
+                "fullscreen": {
+                    "hide": true
+                }
+            },
+            "rebrand": "1",
+            "hide_splash": "0",
+            "force_language": "",
+            "needs_consent": "0",
+            "show_related": "1",
+            "bsense": false,
+            "bsense_channel": ""
+        }
+    ],
+    "related": [
+        {
+            "title": "Extreme Makeover",
+            "url": "",
+            "thumb": "",
+            "position": 1
+        },
+        {
+            "title": "Miruna's Adventure: Vet",
+            "url": "",
+            "thumb": "",
+            "position": 2
+        },
+        {
+            "title": "Ollie Goes to School",
+            "url": "",
+            "thumb": "",
+            "position": 3
+        },
+        {
+            "title": "Summertime Celebration",
+            "url": "",
+            "thumb": "",
+            "position": 5
+        },
+        {
+            "title": "Princesses Emergency Room",
+            "url": "",
+            "thumb": "",
+            "position": 4
+        }
+    ],
+    "languages": [
+        "Russian",
+        "English",
+        "Portuguese",
+        "Spanish"
+    ],
+    "translations": []
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-912D4ZR2HV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-912D4ZR2HV');
+    </script>
+    <script>
+    (function() {
+        const block = (m) => console.log("Blocking reload attempt: " + m);
+        try {
+            window.location.reload = function() { block("location.reload"); };
+            window.history.go = function() { block("history.go"); };
+            window.location.replace = function() { block("location.replace"); };
+            const preventRefresh = () => {
+                const refresh = document.querySelector('meta[http-equiv="refresh"]');
+                if (refresh) {
+                    console.log("Blocking meta refresh");
+                    refresh.remove();
+                }
+            };
+            setInterval(preventRefresh, 1000);
+            window.addEventListener('beforeunload', (event) => {
+                event.stopImmediatePropagation();
+            }, true);
+        } catch(e) { console.error("Reload fix error:", e); }
+    })();
+    </script>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="Build/UnityLoader.js"></script>
+    <script src="/js/main.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Web7.json");
+      var scaleToFit = true; 
+      window.onresize = function () {
+        var canvas = gameInstance.Module.canvas;
+        var container = gameInstance.container;
+        var w = window.innerWidth;
+        var h = window.innerHeight;
+        container.style.width = canvas.style.width = w + "px";
+        container.style.height = canvas.style.height = h + "px";
+        container.style.top = "0px";
+        container.style.left = "0px";
+      };
+    </script>
+    <style>
+      html, body {
+        background: #000;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+      }
+      div#gameContainer {
+        background: transparent !important;
+        position: absolute;
+        width: 100% !important;
+        height: 100% !important;
+        top: 0;
+        left: 0;
+      }
+      div#gameContainer canvas {
+        position: absolute;
+        width: 100% !important;
+        height: 100% !important;
+        image-rendering: optimizeSpeed;
+        image-rendering: -webkit-crisp-edges;
+        image-rendering: -moz-crisp-edges;
+        image-rendering: -o-crisp-edges;
+        image-rendering: crisp-edges;
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: optimize-contrast;
+        image-rendering: pixelated;
+        -ms-interpolation-mode: nearest-neighbor;
+      }
+    </style>
+    <meta property="og:title" content="Frying Nemo - Play Online for Free">
+    <meta property="og:description" content="Play Frying Nemo online for free. Unblocked and available on all devices. Experience the best Frying Nemo gameplay now!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://unlockedgames.io/frying-nemo/">
+    <script type="application/ld+json">{ "@context": "https://schema.org", "@type": ["VideoGame", "SoftwareApplication"], "name": "Frying Nemo", "description": "Play Frying Nemo online for free. Unblocked and available on all devices. Experience the best Frying Nemo gameplay now!", "url": "https://unlockedgames.io/frying-nemo/", "applicationCategory": "Game", "operatingSystem": "Any", "genre": "Arcade", "inLanguage": "en", "isAccessibleForFree": true}</script>
+    <meta property="og:title" content="Frying Nemo - Play Online for Free">
+    <meta property="og:description" content="Play Frying Nemo online for free. Unblocked and available on all devices. Experience the best Frying Nemo gameplay now!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://unlockedgames.io/frying-nemo/">
+    <script type="application/ld+json">{ "@context": "https://schema.org", "@type": ["VideoGame", "SoftwareApplication"], "name": "Frying Nemo", "description": "Play Frying Nemo online for free. Unblocked and available on all devices. Experience the best Frying Nemo gameplay now!", "url": "https://unlockedgames.io/frying-nemo/", "applicationCategory": "Game", "operatingSystem": "Any", "genre": "Arcade", "inLanguage": "en", "isAccessibleForFree": true, "author": { "@type": "Person", "name": "HSINI" }}</script>
+    <meta property="og:title" content="Frying Nemo - Play Online for Free">
+    <meta property="og:description" content="Play Frying Nemo online for free. Unblocked and available on all devices. Experience the best Frying Nemo gameplay now!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://unlockedgames.io/frying-nemo/">
+    <script type="application/ld+json">{ "@context": "https://schema.org", "@type": ["VideoGame", "SoftwareApplication"], "name": "Frying Nemo", "description": "Play Frying Nemo online for free. Unblocked and available on all devices. Experience the best Frying Nemo gameplay now!", "url": "https://unlockedgames.io/frying-nemo/", "applicationCategory": "Game", "operatingSystem": "Any", "genre": "Arcade", "inLanguage": "en", "isAccessibleForFree": true, "author": { "@type": "Person", "name": "HSINI" }, "publisher": { "@type": "Organization", "name": "hsinidev" }}</script>
+</head>
+<body onload="window.onresize();">
+    <div id="gameContainer"></div>
+    <div class="seo-generated-content" style="display:none; visibility:hidden;">
+        <h2>Frying Nemo: A Delicious Browser Game</h2>
+        <p>Frying Nemo is a browser-based game that challenges players to navigate their way through a colorful ocean, collecting fish food while avoiding obstacles and enemies.</p>
+        <h3>Game Overview</h3>
+        <p>In Frying Nemo, you play as a small fry trying to reach the surface of the water. The game is divided into different levels, each with its own unique challenges and obstacles.</p>
+        <h3>How to Play</h3>
+        <ul>
+            <li>Click on the game window to start.</li>
+            <li>Use mouse or keyboard (WASD/Arrows) to move.</li>
+            <li>Eat pellets for speed and points.</li>
+            <li>Avoid sharks and squid.</li>
+        </ul>
+        <h3>Tips and Tricks</h3>
+        <ul>
+            <li>Master the basics of movement.</li>
+            <li>Eat pellets strategically.</li>
+            <li>Avoid hazards like sharp rocks.</li>
+            <li>Use power-ups like fish oil wisely.</li>
+        </ul>
+    </div>
+</body>
+</html>
+

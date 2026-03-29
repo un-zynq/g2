@@ -1,0 +1,649 @@
+{
+  "textures": [
+    {
+      "image": "hintClickCircles.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2048,
+        "h": 235
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "eff_hold2_001.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 92,
+            "h": 92
+          },
+          "frame": {
+            "x": 316,
+            "y": 0,
+            "w": 92,
+            "h": 92
+          }
+        },
+        {
+          "filename": "eff_hold2_029.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 92,
+            "h": 92
+          },
+          "frame": {
+            "x": 408,
+            "y": 0,
+            "w": 92,
+            "h": 92
+          }
+        },
+        {
+          "filename": "eff_hold2_002.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 1,
+            "w": 92,
+            "h": 91
+          },
+          "frame": {
+            "x": 500,
+            "y": 0,
+            "w": 92,
+            "h": 91
+          }
+        },
+        {
+          "filename": "eff_hold2_003.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 1,
+            "y": 1,
+            "w": 90,
+            "h": 90
+          },
+          "frame": {
+            "x": 592,
+            "y": 0,
+            "w": 90,
+            "h": 90
+          }
+        },
+        {
+          "filename": "eff_hold2_028.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 1,
+            "y": 1,
+            "w": 90,
+            "h": 90
+          },
+          "frame": {
+            "x": 682,
+            "y": 0,
+            "w": 90,
+            "h": 90
+          }
+        },
+        {
+          "filename": "eff_hold2_027.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 2,
+            "y": 2,
+            "w": 89,
+            "h": 89
+          },
+          "frame": {
+            "x": 772,
+            "y": 0,
+            "w": 89,
+            "h": 89
+          }
+        },
+        {
+          "filename": "eff_hold2_004.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 2,
+            "y": 2,
+            "w": 88,
+            "h": 88
+          },
+          "frame": {
+            "x": 861,
+            "y": 0,
+            "w": 88,
+            "h": 88
+          }
+        },
+        {
+          "filename": "eff_hold2_026.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 2,
+            "y": 2,
+            "w": 88,
+            "h": 88
+          },
+          "frame": {
+            "x": 949,
+            "y": 0,
+            "w": 88,
+            "h": 88
+          }
+        },
+        {
+          "filename": "eff_hold2_005.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 2,
+            "y": 3,
+            "w": 88,
+            "h": 87
+          },
+          "frame": {
+            "x": 1125,
+            "y": 0,
+            "w": 88,
+            "h": 87
+          }
+        },
+        {
+          "filename": "eff_hold2_006.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 3,
+            "y": 3,
+            "w": 86,
+            "h": 86
+          },
+          "frame": {
+            "x": 1213,
+            "y": 0,
+            "w": 86,
+            "h": 86
+          }
+        },
+        {
+          "filename": "eff_hold2_025.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 3,
+            "y": 3,
+            "w": 86,
+            "h": 86
+          },
+          "frame": {
+            "x": 1299,
+            "y": 0,
+            "w": 86,
+            "h": 86
+          }
+        },
+        {
+          "filename": "eff_hold2_024.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 3,
+            "y": 3,
+            "w": 85,
+            "h": 85
+          },
+          "frame": {
+            "x": 1385,
+            "y": 0,
+            "w": 85,
+            "h": 85
+          }
+        },
+        {
+          "filename": "eff_hold2_007.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 4,
+            "y": 4,
+            "w": 84,
+            "h": 84
+          },
+          "frame": {
+            "x": 1470,
+            "y": 0,
+            "w": 84,
+            "h": 84
+          }
+        },
+        {
+          "filename": "eff_hold2_023.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 4,
+            "y": 4,
+            "w": 84,
+            "h": 84
+          },
+          "frame": {
+            "x": 1554,
+            "y": 0,
+            "w": 84,
+            "h": 84
+          }
+        },
+        {
+          "filename": "eff_hold2_008.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 4,
+            "y": 5,
+            "w": 84,
+            "h": 83
+          },
+          "frame": {
+            "x": 1638,
+            "y": 0,
+            "w": 84,
+            "h": 83
+          }
+        },
+        {
+          "filename": "eff_hold2_009.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 5,
+            "y": 5,
+            "w": 82,
+            "h": 82
+          },
+          "frame": {
+            "x": 1722,
+            "y": 0,
+            "w": 82,
+            "h": 82
+          }
+        },
+        {
+          "filename": "eff_hold2_021.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 5,
+            "y": 5,
+            "w": 82,
+            "h": 82
+          },
+          "frame": {
+            "x": 1804,
+            "y": 0,
+            "w": 82,
+            "h": 82
+          }
+        },
+        {
+          "filename": "eff_hold2_022.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 5,
+            "y": 5,
+            "w": 82,
+            "h": 82
+          },
+          "frame": {
+            "x": 1886,
+            "y": 0,
+            "w": 82,
+            "h": 82
+          }
+        },
+        {
+          "filename": "eff_hold2_010.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 6,
+            "y": 6,
+            "w": 80,
+            "h": 80
+          },
+          "frame": {
+            "x": 1968,
+            "y": 0,
+            "w": 80,
+            "h": 80
+          }
+        },
+        {
+          "filename": "eff_hold2_020.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 6,
+            "y": 6,
+            "w": 80,
+            "h": 80
+          },
+          "frame": {
+            "x": 1968,
+            "y": 80,
+            "w": 80,
+            "h": 80
+          }
+        },
+        {
+          "filename": "eff_hold2_011.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 6,
+            "y": 7,
+            "w": 80,
+            "h": 79
+          },
+          "frame": {
+            "x": 1722,
+            "y": 82,
+            "w": 80,
+            "h": 79
+          }
+        },
+        {
+          "filename": "eff_hold2_019.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 7,
+            "y": 7,
+            "w": 79,
+            "h": 79
+          },
+          "frame": {
+            "x": 1638,
+            "y": 83,
+            "w": 79,
+            "h": 79
+          }
+        },
+        {
+          "filename": "eff_hold2_012.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 7,
+            "y": 7,
+            "w": 78,
+            "h": 78
+          },
+          "frame": {
+            "x": 1880,
+            "y": 82,
+            "w": 78,
+            "h": 78
+          }
+        },
+        {
+          "filename": "eff_hold2_018.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 7,
+            "y": 7,
+            "w": 78,
+            "h": 78
+          },
+          "frame": {
+            "x": 1470,
+            "y": 84,
+            "w": 78,
+            "h": 78
+          }
+        },
+        {
+          "filename": "eff_hold2_013.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 8,
+            "y": 8,
+            "w": 76,
+            "h": 76
+          },
+          "frame": {
+            "x": 1385,
+            "y": 85,
+            "w": 76,
+            "h": 76
+          }
+        },
+        {
+          "filename": "eff_hold2_017.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 8,
+            "y": 8,
+            "w": 76,
+            "h": 76
+          },
+          "frame": {
+            "x": 1548,
+            "y": 84,
+            "w": 76,
+            "h": 76
+          }
+        },
+        {
+          "filename": "eff_hold2_014.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 8,
+            "y": 9,
+            "w": 76,
+            "h": 75
+          },
+          "frame": {
+            "x": 1548,
+            "y": 160,
+            "w": 76,
+            "h": 75
+          }
+        },
+        {
+          "filename": "eff_hold2_016.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 8,
+            "y": 8,
+            "w": 75,
+            "h": 75
+          },
+          "frame": {
+            "x": 1213,
+            "y": 86,
+            "w": 75,
+            "h": 75
+          }
+        },
+        {
+          "filename": "eff_hold2_015.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 9,
+            "y": 9,
+            "w": 74,
+            "h": 74
+          },
+          "frame": {
+            "x": 1288,
+            "y": 86,
+            "w": 74,
+            "h": 74
+          }
+        },
+        {
+          "filename": "eff_hold2_030.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 92,
+            "h": 92
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 92,
+            "h": 92
+          },
+          "frame": {
+            "x": 316,
+            "y": 0,
+            "w": 92,
+            "h": 92
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.0"
+  }
+}

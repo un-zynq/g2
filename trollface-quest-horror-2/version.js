@@ -1,0 +1,2 @@
+version="tc-82";
+libs=["https://cdn.jsdelivr.net/npm/@azerion/h5-ad-wrapper@0.7/build/h5-ad-wrapper.min.js","https://cdn.jsdelivr.net/npm/@azerion/h5-azerion-branding@0.1/build/h5-azerion-branding.min.js"];

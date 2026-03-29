@@ -1,0 +1,334 @@
+{
+	"textures": [
+		{
+			"image": "hintClick.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 50,
+				"h": 875
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "hand_click_001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 52,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 50,
+						"h": 68
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 50,
+						"h": 68
+					}
+				},
+				{
+					"filename": "hand_click_014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 52,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 50,
+						"h": 67
+					},
+					"frame": {
+						"x": 0,
+						"y": 68,
+						"w": 50,
+						"h": 67
+					}
+				},
+				{
+					"filename": "hand_click_002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 52,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 50,
+						"h": 66
+					},
+					"frame": {
+						"x": 0,
+						"y": 135,
+						"w": 50,
+						"h": 66
+					}
+				},
+				{
+					"filename": "hand_click_013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 52,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 50,
+						"h": 66
+					},
+					"frame": {
+						"x": 0,
+						"y": 201,
+						"w": 50,
+						"h": 66
+					}
+				},
+				{
+					"filename": "hand_click_011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 52,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 3,
+						"w": 50,
+						"h": 64
+					},
+					"frame": {
+						"x": 0,
+						"y": 267,
+						"w": 50,
+						"h": 64
+					}
+				},
+				{
+					"filename": "hand_click_012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 52,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 3,
+						"w": 50,
+						"h": 64
+					},
+					"frame": {
+						"x": 0,
+						"y": 331,
+						"w": 50,
+						"h": 64
+					}
+				},
+				{
+					"filename": "hand_click_003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 52,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 4,
+						"w": 50,
+						"h": 63
+					},
+					"frame": {
+						"x": 0,
+						"y": 395,
+						"w": 50,
+						"h": 63
+					}
+				},
+				{
+					"filename": "hand_click_010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 52,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 4,
+						"w": 50,
+						"h": 63
+					},
+					"frame": {
+						"x": 0,
+						"y": 458,
+						"w": 50,
+						"h": 63
+					}
+				},
+				{
+					"filename": "hand_click_009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 52,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 5,
+						"w": 50,
+						"h": 62
+					},
+					"frame": {
+						"x": 0,
+						"y": 521,
+						"w": 50,
+						"h": 62
+					}
+				},
+				{
+					"filename": "hand_click_008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 52,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 6,
+						"w": 50,
+						"h": 60
+					},
+					"frame": {
+						"x": 0,
+						"y": 583,
+						"w": 50,
+						"h": 60
+					}
+				},
+				{
+					"filename": "hand_click_004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 52,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 7,
+						"w": 50,
+						"h": 59
+					},
+					"frame": {
+						"x": 0,
+						"y": 643,
+						"w": 50,
+						"h": 59
+					}
+				},
+				{
+					"filename": "hand_click_007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 52,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 7,
+						"w": 50,
+						"h": 59
+					},
+					"frame": {
+						"x": 0,
+						"y": 702,
+						"w": 50,
+						"h": 59
+					}
+				},
+				{
+					"filename": "hand_click_006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 52,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 8,
+						"w": 50,
+						"h": 58
+					},
+					"frame": {
+						"x": 0,
+						"y": 761,
+						"w": 50,
+						"h": 58
+					}
+				},
+				{
+					"filename": "hand_click_005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 52,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 9,
+						"w": 50,
+						"h": 56
+					},
+					"frame": {
+						"x": 0,
+						"y": 819,
+						"w": 50,
+						"h": 56
+					}
+				},
+				{
+					"filename": "hand_click_015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 52,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 50,
+						"h": 68
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 50,
+						"h": 68
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.0"
+	}
+}

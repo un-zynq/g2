@@ -1,0 +1,1 @@
+Package size exceeded the configured limit of 50 MB. Try https://github.com/un-zynq/g1/tree/master/1v1-lol/1firebase.js instead.

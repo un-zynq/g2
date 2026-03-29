@@ -1,0 +1,61 @@
+{
+	"textures": [
+		{
+			"image": "man_fart_react-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 530,
+				"h": 1170
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "051.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 598,
+						"h": 634
+					},
+					"spriteSourceSize": {
+						"x": 38,
+						"y": 44,
+						"w": 527,
+						"h": 586
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 527,
+						"h": 586
+					}
+				},
+				{
+					"filename": "050.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 598,
+						"h": 634
+					},
+					"spriteSourceSize": {
+						"x": 35,
+						"y": 47,
+						"w": 530,
+						"h": 584
+					},
+					"frame": {
+						"x": 0,
+						"y": 586,
+						"w": 530,
+						"h": 584
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.0"
+	}
+}
